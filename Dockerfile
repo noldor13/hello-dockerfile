@@ -1,2 +1,2 @@
 FROM busybox:latest
-CMD echo hello world from docker container!
+CMD echo hello world! this is test!
