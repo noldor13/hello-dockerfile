@@ -1,2 +1,4 @@
 FROM busybox:latest
-CMD echo hello world! this is the new test!
+COPY ./hello.sh /
+RUN chmod a+x /hello.sh
+CMD /hello.sh
