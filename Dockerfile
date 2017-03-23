@@ -1,2 +1,2 @@
 FROM busybox:latest
-CMD echo hello world! this is test!
+CMD echo hello world! this is new test!
